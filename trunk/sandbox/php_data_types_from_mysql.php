@@ -2,12 +2,16 @@
 
 /*********************************************
  * LESSON OF THE DAY:
+ *
  * When returning data from MySQL, PHP returns
  *   - nulls as nulls
  *   - integers as numeric strings
  *   - zeroes as numeric strings
  *   - strings as strings
  *   - empty strings as empty strings
+ *
+ * In other words, everything is cast into a
+ * string except for null values.
  *********************************************/
 
 
